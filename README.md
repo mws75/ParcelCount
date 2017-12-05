@@ -17,3 +17,11 @@ Ex: main('Pinellas', ['Parcels', 'Index'], 'PARCELID_DSP1', 'MAP_NAME')
 
 Note:  For certain ArcGIS tools, the field names must be < a specific number of characters.  In my example ArcGIS automatically renames
 my PARCELID_DSPI to PARCELID_D causing an error, in which instance I run the propgram from where that error accord.  You can do this by starting at the get_count() function I have bellow the main().  Again, this will only happen if you have a Field name that is tool long for ArcGIS to handle. 
+
+
+Libaries needed:
+
+1. arcpy
+2. csv
+3. pandas
+4. os
